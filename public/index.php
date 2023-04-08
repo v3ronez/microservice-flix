@@ -6,4 +6,4 @@
 
   $teste = new Teste();
 
-  var_dump($teste->Teste());
+  var_dump($teste->Foo());

@@ -3,7 +3,7 @@
   namespace Core;
   class Teste
   {
-    public function Teste()
+    public function Foo()
     {
       return "Funcionando";
     }
