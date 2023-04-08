@@ -4,5 +4,6 @@
 
   use Core\Teste;
 
-  $teste = Teste::Teste();
-  echo($teste);
+  $teste = new Teste();
+
+  var_dump($teste->Teste());

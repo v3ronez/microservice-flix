@@ -3,7 +3,7 @@
   namespace Core;
   class Teste
   {
-    static function Teste()
+    public function Teste()
     {
       return "Funcionando";
     }
