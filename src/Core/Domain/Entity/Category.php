@@ -22,7 +22,7 @@
       $this->is_active = true;
     }
 
-    public function desative()
+    public function disable()
     {
       $this->is_active = false;
     }

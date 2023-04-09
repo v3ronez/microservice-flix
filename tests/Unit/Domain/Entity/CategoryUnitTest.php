@@ -26,13 +26,13 @@
 
     }
 
-    public function test_desative()
+    public function test_disable()
     {
       $category = new Category(
         name: 'new Category',
         is_active: true
       );
-      $category->desative();
+      $category->disable();
       $this->assertFalse($category->is_active);
 
     }
