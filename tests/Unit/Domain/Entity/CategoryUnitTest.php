@@ -15,4 +15,25 @@
       $this->assertTrue(condition: $category->is_active);
     }
 
+    public function test_activate()
+    {
+      $category = new Category(
+        name: 'new Category',
+        is_active: false
+      );
+      $category->activate();
+      $this->assertTrue($category->is_active);
+
+    }
+
+    public function test_desative()
+    {
+      $category = new Category(
+        name: 'new Category',
+        is_active: true
+      );
+      $category->desative();
+      $this->assertFalse($category->is_active);
+
+    }
   }
